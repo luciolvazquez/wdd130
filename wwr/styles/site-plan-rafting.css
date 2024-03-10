@@ -12,12 +12,12 @@
 
 
     --heading-font: "Jost", sans-serif;
-    --paragraph-fonr: "Outfit", sans-serif;
+    --paragraph-font: "Outfit", sans-serif;
 
     --nav-background-color: #051923;
     --nav-link-color: #00A6FB;
-    --nav-hoover-link-color: #0582CA;
-    --nav-hoover-background-color: #051923;
+    --nav-hover-link-color: #0582CA;
+    --nav-hover-background-color: #051923;
 }
 
 body {
