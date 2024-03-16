@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    max-width: fit-content;
+}
+:root {
+    --primary-color: #006494;
+    --secondary-color: #003554;
+    --accent1-color: #051923;
+    --accent2-color: #0582CA;
+
+
+    --heading-font: "Jost", sans-serif;
+    --paragraph-font: "Outfit", sans-serif;
+
+    --nav-background-color: #051923;
+    --nav-link-color: #00A6FB;
+    --nav-hover-link-color: #0582CA;
+    --nav-hover-background-color: #051923;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: #051923;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    font-size: 2rem;
+    color: #003554;
+    padding: 20px;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+}
+
