@@ -36,7 +36,7 @@ nav a {
 
 h1 {
   color: steelblue;
-  text-decoration: underline;
+  text-decoration: underline 1.5px;
 }
 
 main img {
@@ -78,12 +78,16 @@ footer {
   border: 1px solid rgba(0, 0, 0, .1);
   padding: 1rem;
   background-color: #ac4a3d;
-  color: #f3f7f3;
+  color: #eee;
+}
+
+.box a {
+  color: #eee;
 }
 
 aside h2 {
   position: absolute;
-  top: 47px;
+  top: 20px;
   left: 150px;
 }
 
