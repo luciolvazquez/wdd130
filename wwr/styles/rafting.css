@@ -42,28 +42,29 @@ header nav a {
     font-size: 20px;
 }
 
-section {
+section h2, p {
     /* display: grid; */
     justify-content: center;
     z-index: 1;
 }
 
-figure {
-    display: flex; 
+.figures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
 }
 
-figure img {
+.figures img {
     width: 200px;
-    justify-content: center;
-    align-items: center;
+    height: auto;
 }
 
 figcaption {
-    display: flex;
-    padding: 4px;
+    display: grid;
+    padding: 10px;
     text-align: center;
+    align-items: center;
 }
 
 h1, h2 {
@@ -78,6 +79,7 @@ h1, h2 {
 h1 {
     top: 300px;
     text-align: center;
+    color:#00A6FB;
 }
 
 p {
