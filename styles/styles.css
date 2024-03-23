@@ -13,6 +13,10 @@ main {
   margin: 1rem;
 }
 
+* p {
+  color: #eee;
+}
+
 * {
   margin: 0;
   padding: 0;
