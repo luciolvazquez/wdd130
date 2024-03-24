@@ -44,7 +44,6 @@ header nav a {
 }
 
 section h2, p {
-    /* display: grid; */
     justify-content: center;
     z-index: 1;
 }
@@ -119,7 +118,6 @@ article img {
     height: auto;
     right: 50px;
     bottom: 35rem;
-    /* z-index: 1; */
 }    
 
 article p {
