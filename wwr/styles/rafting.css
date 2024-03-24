@@ -28,6 +28,7 @@ header img {
     position: relative;
     width: 180px;
 }
+
 header nav {
 	display: flex;
     justify-content: center;
@@ -77,9 +78,9 @@ h1, h2 {
 }
 
 h1 {
-    top: 300px;
+    top: 200px;
     text-align: center;
-    color:#00A6FB;
+    color: aliceblue;
 }
 
 p {
@@ -103,19 +104,31 @@ nav .sociallinks {
 
 h1 {
     position: absolute;
+    left: 30rem;
 }
 
 article {
-    /* position: absolute; */
-    background-color: #00A6FB;
+    position: absolute;
+    left: 40rem;
+    z-index: 1;
 }
 
 article img {
-    position: absolute;
-    width: 200px;
-    text-align: right;
-    float: left;
+    position: relative;
+    width: 100px;
+    height: auto;
+    right: 50px;
+    bottom: 35rem;
+    /* z-index: 1; */
 }    
+
+article p {
+    position: relative;
+    text-align: justify;
+    right: 32rem;
+    bottom: 60rem;
+    background-color: #00A6FB;
+}
 
 a img {
     width: 2%;
