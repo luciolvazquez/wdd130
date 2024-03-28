@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 1rem;
+    text-align: start;
+}
+
+input, 
+textarea,
+select,
+button {
+    font-size: 18px;
+    color: rgb(53, 51, 51)
+} 
+
+button {
+    text-align: center;
+}
+label {
+    font-family: inherit;
+    font-size: 20px;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgb(32, 20, 20);
+    background-color:aqua;
+    display: grid;
+}
+
+form img {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+footer {
+    margin: 2rem auto 0;
+    width: 300px;
+    text-align: center;
+}
