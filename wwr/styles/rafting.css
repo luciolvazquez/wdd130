@@ -80,6 +80,8 @@ h1 {
     top: 200px;
     text-align: center;
     color: aliceblue;
+    position: absolute;
+    left: 30rem;
 }
 
 p {
@@ -95,19 +97,14 @@ nav .sociallinks {
 }
 
 .hero img {
-    position: relative;
+    /* position: relative; */
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
-    position: absolute;
-    left: 30rem;
-}
-
 article {
-    position: absolute;
+    position: relative;
     left: 40rem;
     z-index: 1;
 }
@@ -147,4 +144,91 @@ footer p {
 
 .sociallinks img {
     width: 40px;
+}
+
+h4 {
+    font-family: var(--heading-font);
+    font-size: 20px;
+    color: var(--accent1-color);
+    padding: 20px;
+}
+
+.information {
+    position: absolute;
+    width: 600px;
+    height: 571px;
+    margin: 0 auto;
+    padding: 0rem;
+    font-family: var(--paragraph-font);
+    border: 2px solid rgb(32, 20, 20);
+    background-color:rgb(169, 226, 217);
+    top: 51.8%;
+    left: 53.5%;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    position: absolute;
+    width: 650px;
+    padding: 1rem;
+    top: 49%;
+    left: 18px;
+    border: 2px solid rgb(32, 20, 20);
+    background-color:rgb(169, 226, 217);
+    display: grid;
+    z-index: 1;
+}
+
+form {
+    position: absolute;
+    width: 650px;
+    padding: 1rem;
+    top: 60%;
+    left: 18px;
+    border: 2px solid rgb(32, 20, 20);
+    background-color:rgb(169, 226, 217);
+    display: grid;
+    z-index: 1;
+    font-family: var(--paragraph-font);
+}
+
+form p {
+    font-family: var(--paragraph-font);
+    text-align: left;
+    font-size: 20px;
+}
+
+input {
+    display: flex;
+}
+
+button {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    text-align: center;
+}
+
+label {
+    font-family: var(--paragraph-font);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.workers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.workers img {
+    width: 250px;
+    height: 160px;
+}
+
+figcaption {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
 }
