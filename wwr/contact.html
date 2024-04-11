@@ -15,27 +15,27 @@
         <header>
             <img src="images/logo.png" alt="Logo Image">
             <nav>
-                <a href="index.html">index.html</a>
-                <a href="about.html">about.html</a>
-                <a href="trips.html">trips.html</a>
-                <a href="contact.html">contact.html</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </header>
 
-        <main>
+        <main class="grid">
             <div class="hero">
                 <img src="images/rafting-background.jpg" alt="Rafting background"> 
                 <h1>Water Rafting Club</h1>
-            </div>
+            
+            <h1 class="informationheading"> Company Information</h1>    
             <div class="information">
-                <h4> Company Information</h4>
-                    <p> Adress: 2000 Devereux Rd, Glenwood Springs, CO 81601, United States </p>
-                    <p>Phone number: +1 340-549-4977</p>
-                    <p>Email: waterraftingclub@gmail.com</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24607.909484137235!2d-107.38960325717926!3d39.55986268107878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741096248b0b099%3A0x6835dde86c877c52!2sWhitewater%20Rafting%2C%20LLC!5e0!3m2!1ses-419!2sar!4v1711809819396!5m2!1ses-419!2sar" 
-                    width="595" height="150" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+                        <p> Adress: 2000 Devereux Rd, Glenwood Springs, CO 81601, United States </p>
+                        <p>Phone number: +1 340-549-4977</p>
+                        <p>Email: waterraftingclub@gmail.com</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24607.909484137235!2d-107.38960325717926!3d39.55986268107878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8741096248b0b099%3A0x6835dde86c877c52!2sWhitewater%20Rafting%2C%20LLC!5e0!3m2!1ses-419!2sar!4v1711809819396!5m2!1ses-419!2sar"></iframe>
+                </div>
             </div>
-
             <section>
                 <h2> Our employees</h2>
                 <div class="workers">
@@ -54,33 +54,34 @@
                 </div>
             </section>
             
-                <h3>Your information</h3>
-            <form>
-                <label for="username">Full name: </label>
-                <input type="text" id="username" name="username">
-                <label for="useremail">Your email: </label>
-                <input type="text" id="useremail" name="useremail">
+                <h3 class="userinfoheading">Your information</h3>
+                <div class="contactform">
+                    <form>
+                        <label for="username">Full name: </label>
+                        <input type="text" id="username" name="username">
+                        <label for="useremail">Your email: </label>
+                        <input type="text" id="useremail" name="useremail">
 
-                <p>Please let us know what's the purpose of your message</p>
-                <label for="generalinquiery">General Inquiry</label>
-                <input type="radio" id="generalinquiery" name="generalinquiery" value="General Inquiry">
+                        <p>Please let us know what's the purpose of your message</p>
+                        <label for="generalinquiery">General Inquiry</label>
+                        <input type="radio" id="generalinquiery" name="generalinquiery" value="General Inquiry">
 
-                <label for="reservationquestion">Reservation Question</label>
-                <input type="radio" id="reservationquestion" name="reservationquestion" value="Reservation Question">
-                
-                <label for="websitesuggestion">Website Suggestion</label>
-                <input type="radio" id="websitesuggestion" name="websitesuggestion" value="Website Suggestion">
-                
-                
-                <label for="message">Please leave us a message to let us know how can we help you!</label>
-                <textarea id="message" name="message"></textarea>
+                        <label for="reservationquestion">Reservation Question</label>
+                        <input type="radio" id="reservationquestion" name="reservationquestion" value="Reservation Question">
+                        
+                        <label for="websitesuggestion">Website Suggestion</label>
+                        <input type="radio" id="websitesuggestion" name="websitesuggestion" value="Website Suggestion">
+                        
+                        
+                        <label for="message">Please leave us a message to let us know how can we help you!</label>
+                        <textarea id="message" name="message"></textarea>
 
-                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
 
-                <button type="submit">Submit information and message</button>
-            </form>
-
+                        <button type="submit">Submit information and message</button>
+                    </form>
+                </div>    
         </main>
 
         <footer>
